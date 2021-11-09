@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+  <header class="header container">
+    <div class="header__toggle">
+      <img src="./images/icon-menu.svg">
+    </div>
+
+    <div class="header__logo">
+      <img src="./images/logo.svg" alt="Logo Site" class="header__logo_img">
+    </div>
+
+    <nav class="header__nav">
+      <ul>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header__cart">
+      <img src="./images/icon-cart.svg">
+    </div>
+    <div class="header__profile">
+      <img src="./images/image-avatar.png">
+    </div>
+  </header>
+
+  <main class="product container">
+    <div class="product__photos">
+      <img src="./images/image-product-1.jpg" alt="">
+
+      <div class="product__photos_thumb">
+        <ul>
+          <li><img src="./images/image-product-1-thumbnail.jpg" alt=""></li>
+          <li><img src="./images/image-product-2-thumbnail.jpg" alt=""></li>
+          <li><img src="./images/image-product-3-thumbnail.jpg" alt=""></li>
+          <li><img src="./images/image-product-4-thumbnail.jpg" alt=""></li>
+      </div>
+    </div>
+
+    <div class="product__info">
+      <span class="product__info_category">Sneaker Company</span>
+      <h1 class="product__info_title">Fall Limited Edition Sneakers</h1>
+      <p class="product__info_description">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+
+      <div class="product__info_price">
+      <p class="product__info_price_discount">$125.00 <span>50%</span></p>
+      <p class="product__info_price_original"><s>$250.00</s></p>
+      </div>
+
+      <input type="number" name="" id="" class="qtd_product">
+
+      <button type="submit" class="btn btn_primary">
+        <img src="./images/icon-cart.svg" alt="">
+        Add to cart
+      </button>
+    </div>
+  </main>
+</body>
+</html>
