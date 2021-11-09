@@ -102,6 +102,11 @@ a:hover {
   padding: 0;
 }
 
+.header__nav ul li a:hover {
+  padding-bottom: 40px;
+  border-bottom: 4px solid #ff7d1a;
+}
+
 .header__cart {
   -ms-flex-preferred-size: 32px;
       flex-basis: 32px;
