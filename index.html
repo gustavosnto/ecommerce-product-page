@@ -60,7 +60,11 @@
       <p class="product__info_price_original"><s>$250.00</s></p>
       </div>
 
-      <input type="number" name="" id="" class="qtd_product">
+      <div class="quantity buttons_added ">
+        <input type="button" value="-" class="minus">
+        <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text qtd_product" size="4" pattern="" inputmode="">
+        <input type="button" value="+" class="plus">
+      </div>
 
       <button type="submit" class="btn btn_primary">
         <img src="./images/icon-cart.svg" alt="">
@@ -68,5 +72,8 @@
       </button>
     </div>
   </main>
+
+  <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="./src/js/main.js"></script>
 </body>
 </html>
