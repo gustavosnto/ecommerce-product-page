@@ -19,14 +19,15 @@
 
 .quantity {
     display: inline-block;
+    margin-bottom: 1rem;
 }
    
 .quantity .input-text.qty {
-    width: 35px;
-    height: 39px;
+    width: 100%;
+    height: 56px;
     padding: 0 5px;
     text-align: center;
-    background-color: transparent;
+    background-color: $secundaryColor;
     border: 1px solid #efefef;
 }
 
@@ -35,6 +36,7 @@
     position: relative;
     white-space: nowrap;
     vertical-align: top;
+    width: 100%;
 }
 
 .quantity.buttons_added input {
@@ -47,18 +49,23 @@
 .quantity.buttons_added .minus,
 .quantity.buttons_added .plus {
     padding: 7px 10px 8px;
-    height: 41px;
-    background-color: #ffffff;
-    border: 1px solid #efefef;
-    cursor:pointer;
+    height: 56px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: $primaryColor;
 }
 
 .quantity.buttons_added .minus {
     border-right: 0;
+    position: absolute;
 }
 
 .quantity.buttons_added .plus {
     border-left: 0;
+    right: 0;
+    position: absolute;
 }
 
 .quantity.buttons_added .minus:hover,
